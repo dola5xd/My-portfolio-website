@@ -11,7 +11,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
   const { title, description, stack, url } = project;
   const { demo, repo } = url ?? {};
   const imageSrc = project.image
-    ? urlFor(project.image)?.url()
+    ? urlFor(project.image)?.format("webp").url()
     : "/fallback.jpg";
 
   return (
@@ -20,6 +20,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         <img
           src={imageSrc}
           alt={title}
+          loading="lazy"
           className="object-cover object-top w-full h-64 rounded-lg "
         />
       )}

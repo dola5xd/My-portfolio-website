@@ -1,4 +1,4 @@
-import avatar from "../../assets/images/avatar.png";
+import avatar from "../../assets/images/avatar.webp";
 import {
   img as MotionImg,
   h1 as MotionH1,
@@ -25,8 +25,8 @@ const textVariants: Variants = {
 
 function Hero() {
   return (
-    <section className="p-10 lg:p-20 flex md:min-h-[75vh] items-center justify-center overflow-x-hidden">
-      <div className="container flex flex-col items-center justify-between w-full gap-y-7 md:gap-x-10 lg:flex-row">
+    <section className="py-20 px-10 lg:p-20 flex md:min-h-[75vh] items-center justify-center overflow-x-hidden">
+      <div className="container flex flex-col items-center justify-between w-full gap-y-20 md:gap-x-10 lg:flex-row">
         <MotionDiv
           initial="init"
           animate="reveal"
@@ -43,11 +43,11 @@ function Hero() {
             variants={textVariants}
             className="text-4xl font-extrabold md:text-6xl"
           >
-            <span className="text-indigo-600">Adel Yasser</span>
+            <span className="text-indigo-500">Adel Yasser</span>
           </MotionH2>
           <MotionH3
             variants={textVariants}
-            className="flex flex-col text-xl font-semibold sm:flex-row gap-y-1 md:items-center md:text-4xl gap-x-4"
+            className="flex flex-wrap text-xl font-semibold flex-row gap-y-1 items-center md:text-4xl gap-x-4"
           >
             Build
             <RotatingText

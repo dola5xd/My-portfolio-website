@@ -26,7 +26,7 @@ function Courses() {
       variants={ContainerVariants}
       initial="init"
       whileInView="reveal"
-      viewport={{ once: true }}
+      viewport={{ amount: 0.2, once: true }}
       className="flex flex-col items-center px-3 py-10 md:p-20 gap-y-10 md:gap-y-20"
     >
       <div className="flex flex-col items-center md:items-start gap-y-2 md:gap-y-1.5">

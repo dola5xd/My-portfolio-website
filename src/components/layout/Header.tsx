@@ -90,7 +90,7 @@ function Header() {
 
   return (
     <>
-      <header className="flex items-center justify-between w-full p-4 md:justify-center md:p-7">
+      <header className="flex items-center justify-center w-full p-4 md:p-7">
         <MotionNav
           variants={headerVariants}
           initial="init"
@@ -119,9 +119,8 @@ function Header() {
           </MotionUl>
         </MotionNav>
 
-        <MotionSpan className="md:hidden">Portfolio</MotionSpan>
         <MotionSpan
-          className="self-end md:hidden"
+          className="md:hidden cursor-pointer"
           whileTap={{ scale: 0.9 }}
           onClick={() => setMenuOpen(true)}
         >
@@ -151,7 +150,11 @@ function Header() {
               className="flex flex-col h-full py-20 px-20 justify-center gap-y-8 text-2xl text-white *:relative *:cursor-pointer"
             >
               {Links.map((link, i) => (
-                <ListItem key={i} link={link} />
+                <ListItem
+                  key={i}
+                  link={link}
+                  onClick={() => setMenuOpen(false)}
+                />
               ))}
             </MotionUl>
           </MotionNav>

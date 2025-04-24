@@ -9,7 +9,7 @@ import { tech } from "../../lib/techs";
 
 const ContainerVariants: Variants = {
   init: {},
-  reveal: { transition: { staggerChildren: 0.1 } },
+  reveal: { transition: { staggerChildren: 0.3 } },
 };
 const cardVariants: Variants = {
   init: {
@@ -26,7 +26,7 @@ function Techs() {
       initial="init"
       id="techs"
       whileInView="reveal"
-      viewport={{ once: true }}
+      viewport={{ amount: 0.2, once: true }}
       className="flex flex-col items-center px-5 py-10 md:p-20 gap-y-20"
     >
       <div className="flex flex-col items-center md:items-start gap-y-2 md:gap-y-1.5">
