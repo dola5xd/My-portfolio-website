@@ -1,6 +1,6 @@
 import SectionHead from "../ui/SectionHead";
 import { Variants } from "motion/react";
-import { use } from "react";
+import { lazy, use } from "react";
 import { useState } from "react";
 import {
   section as MotionSection,
@@ -8,7 +8,8 @@ import {
   button as MotionButton,
 } from "motion/react-client";
 import { getProjects } from "../../lib/api";
-import ProjectCard from "../ui/ProjectCard";
+
+const ProjectCard = lazy(() => import("../ui/ProjectCard"));
 
 const ContainerVariants: Variants = {
   init: {},
@@ -25,7 +26,7 @@ const cardVariants: Variants = {
 
 const projectPromise = getProjects();
 
-const BATCH_SIZE = 9;
+const BATCH_SIZE = 8;
 
 export default function Projects() {
   const projects = use(projectPromise);

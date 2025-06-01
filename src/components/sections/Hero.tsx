@@ -1,14 +1,15 @@
 import avatar from "../../assets/images/avatar.webp";
 import {
-  img as MotionImg,
   h1 as MotionH1,
   h2 as MotionH2,
   h3 as MotionH3,
   p as MotionP,
   div as MotionDiv,
+  a as MotionA,
 } from "motion/react-client";
 import { Variants } from "motion/react";
 import RotatingText from "../ui/RotatingText";
+import { PiReadCvLogo } from "react-icons/pi";
 
 const containerVariants: Variants = {
   init: {},
@@ -75,20 +76,37 @@ function Hero() {
             I craft exceptional digital experiences with a focus on performance,
             design, and accessibility.
           </MotionP>
+          <MotionA
+            href="https://drive.google.com/file/d/1bQIMiBs686jE3cHK8vvmNNQfnCBKM3QR/view?usp=sharing"
+            target="_blank"
+            rel="noopener"
+            variants={textVariants}
+            className="cursor-pointer w-fit"
+          >
+            <button
+              title="resume"
+              type="button"
+              className="flex item-center self-center gap-x-1.5 w-full px-4 py-2 rounded outline-1 outline-transparent bg-indigo-600 cursor-pointer relative before:absolute before:top-1.5 before:-left-1.5 before:w-full before:h-full before:bg-indigo-600 before:rounded before:-z-10 before:opacity-0 hover:before:opacity-100 hover:outline-white hover:bg-transparent duration-500 before:duration-500"
+            >
+              My Resume <PiReadCvLogo size={25} />
+            </button>
+          </MotionA>
         </MotionDiv>
-        <div className="md:max-w-1/2 rounded-full h-[200px] md:h-[400px] aspect-square shadow-2xl shadow-primary-700 pointer-events-none">
-          <MotionImg
-            variants={{
-              hidden: { opacity: 0, x: 200 },
-              animate: { opacity: 1, x: 0 },
-            }}
-            initial="hidden"
-            animate="animate"
+        <MotionDiv
+          className="md:max-w-1/2 rounded-full h-[200px] md:h-[400px] aspect-square shadow-2xl shadow-primary-700 pointer-events-none"
+          variants={{
+            hidden: { opacity: 0, x: 200 },
+            animate: { opacity: 1, x: 0 },
+          }}
+          initial="hidden"
+          animate="animate"
+        >
+          <img
             src={avatar}
             alt="avatar"
             className="object-cover object-top w-full h-full rounded-full"
           />
-        </div>
+        </MotionDiv>
       </div>
     </section>
   );

@@ -78,7 +78,7 @@ function Contact() {
           variants={itemVariants}
         >
           {[
-            { title: "Email", value: "dolay6253@gmail.com" },
+            { title: "Email", value: "adelyasser5002@gmail.com" },
             { title: "Phone", value: "+20 1069142906" },
           ].map((info) => (
             <SpotlightCard
