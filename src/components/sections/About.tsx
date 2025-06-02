@@ -85,7 +85,7 @@ function About() {
                   className="text-lg font-bold rounded cursor-default md:text-xl text-balance"
                 >
                   <SpotlightCard
-                    className="px-5 text-sm md:text-base md:leading-relaxed py-7 md:px-10 lg:py-20 text-pretty"
+                    className="px-5 text-sm md:text-base lg:text-xl md:leading-relaxed py-7 md:px-10 lg:py-20 text-pretty"
                     spotlightColor="rgba(255, 255, 255, 0.048)"
                   >
                     {textContent[currentIndex].text}

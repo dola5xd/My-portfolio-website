@@ -54,7 +54,7 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="grid w-full grid-cols-1 gap-7 lg:grid-cols-2 xl:grid-cols-4">
+      <div className="grid w-full grid-cols-1 gap-7 xl:grid-cols-4">
         {visibleProjects.map((project) => (
           <MotionDiv
             key={project._id}
@@ -64,7 +64,7 @@ export default function Projects() {
             viewport={{ amount: 0.3, once: true }}
             className={`w-full ${
               String(project.description).length >= 100
-                ? "col-span-1 md:col-span-2"
+                ? "col-span-1 xl:col-span-2"
                 : "col-span-1"
             }`}
           >

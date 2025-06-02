@@ -84,9 +84,9 @@ function Hero() {
             className="cursor-pointer w-fit"
           >
             <button
-              title="resume"
+              title="My CV"
               type="button"
-              className="flex item-center self-center gap-x-1.5 w-full px-4 py-2 rounded outline-1 outline-transparent bg-indigo-600 cursor-pointer relative before:absolute before:top-1.5 before:-left-1.5 before:w-full before:h-full before:bg-indigo-600 before:rounded before:-z-10 before:opacity-0 hover:before:opacity-100 hover:outline-white hover:bg-transparent duration-500 before:duration-500"
+              className="flex item-center self-center gap-x-1.5 w-full px-4 py-2 rounded outline-1 hover:bg-indigo-600 cursor-pointer relative before:absolute before:top-1.5 before:-left-1.5 before:w-full before:h-full before:bg-indigo-600 before:rounded before:-z-10 hover:before:top-0 hover:before:left-0 outline-white bg-transparent duration-500 before:duration-500"
             >
               My Resume <PiReadCvLogo size={25} />
             </button>

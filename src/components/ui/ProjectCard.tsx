@@ -25,7 +25,6 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         />
       )}
 
-      {/* CONTENT */}
       <SpotlightCard
         className="flex flex-col justify-between w-full px-4 py-6 md:min-h-[275px]"
         spotlightColor="rgba(255, 255, 255, 0.048)"
@@ -50,13 +49,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
             ))}
           </div>
         </div>
-        <div className="flex justify-center w-full gap-2">
+        <div className="flex justify-center w-full gap-2 items-center ">
           {demo && (
             <a
               href={demo}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-1 text-xs text-center text-white transition-colors bg-indigo-600 rounded sm:text-sm md:text-base lg:text-base hover:bg-indigo-700 md:w-1/2 md:py-2"
+              className="px-3 py-1 text-xs text-center text-white transition-colors bg-indigo-600 rounded sm:text-sm md:text-base lg:text-sm hover:bg-indigo-700 md:w-1/2 md:py-2"
             >
               Live Demo
             </a>
@@ -66,7 +65,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               href={repo}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-3 py-1 text-xs text-white transition-colors bg-gray-700 rounded sm:text-sm md:text-base lg:text-base hover:bg-gray-800 md:w-1/2 md:py-2 md:text-center"
+              className="px-3 py-1 text-xs text-white transition-colors bg-gray-700 rounded sm:text-sm md:text-base lg:text-sm hover:bg-gray-800 md:w-1/2 md:py-2 md:text-center text-nowrap"
             >
               GitHub Repo
             </a>
