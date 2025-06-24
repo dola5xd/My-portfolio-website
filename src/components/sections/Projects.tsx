@@ -48,7 +48,7 @@ export default function Projects() {
     >
       <div>
         <SectionHead animate={false}>Projects</SectionHead>
-        <p className="mt-4 text-gray-500">
+        <p className="mt-4 text-gray-400">
           A selection of projects showcasing my skills in frontend development,
           animations, and responsive design.
         </p>
@@ -62,11 +62,7 @@ export default function Projects() {
             initial="init"
             whileInView="reveal"
             viewport={{ amount: 0.3, once: true }}
-            className={`w-full ${
-              String(project.description).length >= 100
-                ? "col-span-1 xl:col-span-2"
-                : "col-span-1"
-            }`}
+            className="w-full col-span-1 xl:col-span-2"
           >
             <ProjectCard project={project} />
           </MotionDiv>

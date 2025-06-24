@@ -2,7 +2,6 @@ import { lazy, Suspense } from "react";
 import Spinner from "./components/ui/Spinner";
 import Aurora from "./components/ui/Aurora";
 import Header from "./components/layout/Header";
-import Summary from "./components/sections/Summary";
 
 const Hero = lazy(() => import("./components/sections/Hero"));
 const About = lazy(() => import("./components/sections/About"));
@@ -27,7 +26,6 @@ function App() {
         <Header />
         <Hero />
         <About />
-        <Summary />
         <Techs />
         <Courses />
         <Projects />

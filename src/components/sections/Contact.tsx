@@ -87,7 +87,7 @@ function Contact() {
               spotlightColor="rgba(255, 255, 255, 0.048)"
             >
               <h3>{info.title}</h3>
-              <h5>{info.value}</h5>
+              <h4>{info.value}</h4>
             </SpotlightCard>
           ))}
 
@@ -96,7 +96,7 @@ function Contact() {
             spotlightColor="rgba(255, 255, 255, 0.048)"
           >
             <h3>Social Media</h3>
-            <h5>Follow me on social media</h5>
+            <h4>Follow me on social media</h4>
             <ul className="flex items-center justify-center gap-4 py-3 text-2xl">
               <li>
                 <a

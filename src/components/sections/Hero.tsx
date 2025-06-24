@@ -1,4 +1,3 @@
-import avatar from "../../assets/images/avatar.webp";
 import {
   h1 as MotionH1,
   h2 as MotionH2,
@@ -36,7 +35,7 @@ function Hero() {
         >
           <MotionH1
             variants={textVariants}
-            className="text-2xl font-bold text-gray-400 md:text-5xl"
+            className="text-2xl font-bold md:text-5xl"
           >
             Hi, I'm
           </MotionH1>
@@ -48,7 +47,7 @@ function Hero() {
           </MotionH2>
           <MotionH3
             variants={textVariants}
-            className="flex flex-wrap text-xl font-semibold flex-row gap-y-1 items-center md:text-4xl gap-x-4"
+            className="flex flex-row flex-wrap items-center text-xl font-semibold gap-y-1 md:text-4xl gap-x-4"
           >
             Build
             <RotatingText
@@ -58,20 +57,20 @@ function Hero() {
                 "Interactive Animations",
                 "Pixel-Perfect Designs",
               ]}
-              mainClassName="px-2 sm:px-3 text-black overflow-hidden py-1 sm:py-2 flex justify-center rounded-lg font-bold text-white bg-indigo-600"
+              mainClassName="px-2 sm:px-2 md:px-3 bg-indigo-700 text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg"
               staggerFrom="first"
               initial={{ y: "100%" }}
               animate={{ y: 0 }}
               exit={{ y: "-120%" }}
               staggerDuration={0.03}
-              splitLevelClassName="overflow-hidden pb-1 sm:pb-2"
+              splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1"
               transition={{ type: "spring", damping: 30, stiffness: 400 }}
               rotationInterval={3000}
             />
           </MotionH3>
           <MotionP
             variants={textVariants}
-            className="max-w-md mt-4 text-gray-500 md:text-lg"
+            className="max-w-md mt-4 text-gray-400 md:text-lg"
           >
             I craft exceptional digital experiences with a focus on performance,
             design, and accessibility.
@@ -86,7 +85,7 @@ function Hero() {
             <button
               title="My CV"
               type="button"
-              className="flex item-center self-center gap-x-1.5 w-full px-4 py-2 rounded outline-1 hover:bg-indigo-600 cursor-pointer relative before:absolute before:top-1.5 before:-left-1.5 before:w-full before:h-full before:bg-indigo-600 before:rounded before:-z-10 hover:before:top-0 hover:before:left-0 outline-white bg-transparent duration-500 before:duration-500"
+              className="flex item-center self-center gap-x-1.5 w-full px-4 py-2 rounded-sm bg-indigo-600 text-white font-semibold shadow-lg hover:bg-indigo-700 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
             >
               My Resume <PiReadCvLogo size={25} />
             </button>
@@ -102,8 +101,11 @@ function Hero() {
           animate="animate"
         >
           <img
-            src={avatar}
+            src={"/assets/avatar.webp"}
             alt="avatar"
+            fetchPriority="high"
+            loading="eager"
+            decoding="async"
             className="object-cover object-top w-full h-full rounded-full"
           />
         </MotionDiv>

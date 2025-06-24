@@ -66,7 +66,7 @@ function About() {
     <motion.section
       ref={ref}
       id="about"
-      className="relative w-full"
+      className="relative w-full bg-gradient-to-b from-transparent via-transparent via-90% md:via-95% to-indigo-950/40"
       style={{ height: "600vh" }}
     >
       <div className="sticky top-0 w-full h-screen pt-10">

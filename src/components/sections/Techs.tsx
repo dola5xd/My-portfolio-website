@@ -27,11 +27,11 @@ function Techs() {
       id="techs"
       whileInView="reveal"
       viewport={{ amount: 0.2, once: true }}
-      className="flex flex-col items-center px-5 py-10 md:p-20 gap-y-20"
+      className="flex flex-col items-center px-10 py-10 sm:px-20 md:p-20 gap-y-20 bg-gradient-to-b from-indigo-950/40 via-10% md:via-5% via-transparent to-transparent"
     >
       <div className="flex flex-col items-center md:items-start gap-y-2 md:gap-y-1.5">
         <SectionHead animate={false}>Techs</SectionHead>
-        <p className="text-sm text-center md:text-start lg:text-center text-primary-200 md:text-strat md:text-base">
+        <p className="text-sm text-center text-gray-300 md:text-start lg:text-center md:text-strat md:text-base">
           These are the technologies and tools I have mastered throughout my
           learning journey.
         </p>
@@ -40,13 +40,15 @@ function Techs() {
         {tech.map((tech, i) => (
           <MotionDiv key={i} variants={cardVariants}>
             <SpotlightCard
-              className="flex flex-col items-center col-span-1 px-10 leading-relaxed rounded gap-y-2 md:gap-y-4 py-7 md:px-0 "
-              spotlightColor="rgba(255, 255, 255, 0.048)"
+              className="flex flex-col items-center col-span-1 gap-2 px-10 leading-relaxed rounded md:flex-row md:justify-center md:gap-4 py-7 md:py-7 md:px-0 bg-neutral-900/40"
+              spotlightColor="rgba(255, 255, 255, 0.089)"
             >
               <span>
                 <tech.icon size={50} />
               </span>
-              <h5 className="text-lg">{tech.name}</h5>
+              <h2 className="text-lg font-semibold md:min-w-1/2">
+                {tech.name}
+              </h2>
             </SpotlightCard>
           </MotionDiv>
         ))}

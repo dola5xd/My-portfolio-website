@@ -31,7 +31,7 @@ function Courses() {
     >
       <div className="flex flex-col items-center md:items-start gap-y-2 md:gap-y-1.5">
         <SectionHead animate={false}>Courses</SectionHead>
-        <p className="text-sm text-center text-primary-200 md:text-strat md:text-base">
+        <p className="text-sm text-center text-gray-400 md:text-strat md:text-base">
           Here are some of the courses I've completed.
         </p>
       </div>
