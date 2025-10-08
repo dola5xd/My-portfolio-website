@@ -61,12 +61,9 @@ function Contact() {
       viewport={{ amount: 0.3, once: true }}
       variants={containerVariants}
     >
-      <motion.div
-        className="z-[1] text-center md:text-left"
-        variants={itemVariants}
-      >
+      <motion.div className="z-[1] text-center" variants={itemVariants}>
         <SectionHead animate={false}>Contact me</SectionHead>
-        <p className="mt-2 text-primary-200">
+        <p className="mt-2 text-white/70">
           I'd love to hear from you. Feel free to reach out using the form
           below!
         </p>

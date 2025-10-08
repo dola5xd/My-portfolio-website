@@ -29,9 +29,9 @@ function Techs() {
       viewport={{ amount: 0.2, once: true }}
       className="flex flex-col items-center px-10 py-10 sm:px-20 md:p-20 gap-y-20 bg-gradient-to-b from-indigo-950/40 via-10% md:via-5% via-transparent to-transparent"
     >
-      <div className="flex flex-col items-center md:items-start gap-y-2 md:gap-y-1.5">
+      <div className="flex flex-col items-center  gap-y-2 md:gap-y-1.5">
         <SectionHead animate={false}>Techs</SectionHead>
-        <p className="text-sm text-center text-gray-300 md:text-start lg:text-center md:text-strat md:text-base">
+        <p className="text-sm text-center text-gray-300 lg:text-center md:text-strat md:text-base">
           These are the technologies and tools I have mastered throughout my
           learning journey.
         </p>

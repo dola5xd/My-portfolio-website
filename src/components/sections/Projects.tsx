@@ -46,9 +46,9 @@ export default function Projects() {
       whileInView="reveal"
       className="flex flex-col items-center gap-12 px-6 py-16 md:px-20"
     >
-      <div>
+      <div className="flex flex-col items-center gap-y-2 md:gap-y-1.5">
         <SectionHead animate={false}>Projects</SectionHead>
-        <p className="mt-4 text-gray-400">
+        <p className="text-gray-400">
           A selection of projects showcasing my skills in frontend development,
           animations, and responsive design.
         </p>

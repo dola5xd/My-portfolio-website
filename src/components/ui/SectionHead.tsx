@@ -11,7 +11,7 @@ function SectionHead({
 }) {
   return (
     <h2
-      className={`text-3xl lg:text-5xl font-semibold ${
+      className={`text-3xl  lg:text-5xl font-semibold ${
         animate ? "animate-pulse" : ""
       } ${className || ""} `}
     >
