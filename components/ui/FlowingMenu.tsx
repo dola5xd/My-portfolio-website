@@ -206,22 +206,12 @@ const MenuItem: React.FC<MenuItemProps> = ({
   const { canHover } = useDeviceTier();
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
-    // Desktop with mouse: Hover already reveals animated marquee preview.
-    // Single click directly opens the project demo!
-    if (canHover) {
-      if (!link || link === "#") {
-        e.preventDefault();
-      }
-      return;
-    }
-
-    // Touch screens: First tap toggles hover animation preview.
-    // Double tap (or tapping while already active) opens the project demo!
     e.preventDefault();
     const now = Date.now();
-    const DOUBLE_TAP_DELAY = 350;
+    const DOUBLE_CLICK_DELAY = 350;
 
-    if (now - lastTapRef.current < DOUBLE_TAP_DELAY || isActive) {
+    // Both desktop and mobile: Double-click / double-tap opens the project demo!
+    if (now - lastTapRef.current < DOUBLE_CLICK_DELAY || (!canHover && isActive)) {
       lastTapRef.current = 0;
       if (link && link !== "#") {
         window.open(link, "_blank", "noopener,noreferrer");
@@ -230,7 +220,11 @@ const MenuItem: React.FC<MenuItemProps> = ({
     }
 
     lastTapRef.current = now;
-    onToggleActive();
+
+    // On touch devices without hover, tap toggles preview marquee
+    if (!canHover) {
+      onToggleActive();
+    }
   };
 
   const handleDoubleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
