@@ -110,10 +110,11 @@ export default function Contact() {
           setStatus({ message: "", type: "success" });
           form.current?.reset();
         },
-        () => {
+        (error: unknown) => {
+          console.error("EmailJS Error details:", error);
           setStatus({
             message:
-              "Failed to send message. Please try again or email me directly.",
+              "Could not deliver via service. Please email me directly at adelyasser5002@gmail.com",
             type: "error",
           });
         },
