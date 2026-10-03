@@ -8,7 +8,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const siteUrl = "https://my-portfolio-website-orpin.vercel.app";
+const siteUrl = "https://adel-yasser-dev.vercel.app";
 
 export const viewport: Viewport = {
   themeColor: "#09090b",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "Portfolio of Adel Yasser, a Frontend Developer crafting high-performance, interactive, and responsive web applications with React 19, Next.js, TypeScript, and modern UI engineering.",
   applicationName: "Adel Yasser Portfolio",
-  authors: [{ name: "Adel Yasser", url: "https://github.com/dola5xd" }],
+  authors: [{ name: "Adel Yasser", url: "https://github.com/Adel-Yasser-dev" }],
   creator: "Adel Yasser",
   publisher: "Adel Yasser",
   keywords: [
@@ -101,7 +101,7 @@ const jsonLd = {
       jobTitle: "Frontend Developer",
       url: siteUrl,
       sameAs: [
-        "https://github.com/dola5xd",
+        "https://github.com/Adel-Yasser-dev",
         "https://www.linkedin.com/in/adel-yasser-a28181242/",
         "https://www.facebook.com/dola2005ti",
       ],

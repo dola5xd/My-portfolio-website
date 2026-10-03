@@ -121,7 +121,7 @@ INSERT INTO public.profiles (
     '/assets/avatar.webp',
     'adelyasser5002@gmail.com',
     '+20 1069142906',
-    'https://github.com/dola5xd',
+    'https://github.com/Adel-Yasser-dev',
     'https://www.linkedin.com/in/adel-yasser-a28181242/',
     'https://www.facebook.com/dola2005ti',
     ARRAY[
@@ -182,7 +182,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/ba6386cc8f975b84b40cae9cfdcc07d831875e43-1919x948.png',
     ARRAY['Next.js', 'TypeScript', 'Tailwind.CSS', 'React Hook Form', 'Lenis', 'Framer-motion'],
     'https://monsba.vercel.app/',
-    'https://github.com/dola5xd/monsba',
+    'https://github.com/Adel-Yasser-dev/monsba',
     '2025-10-04T11:19:47.534Z'
 ),
 (
@@ -193,7 +193,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/c1f4347779ba95d294a977fab52ee9fe4eee298c-1900x946.png',
     ARRAY['Next.js', 'TypeScript', 'Tailwind.CSS', 'ShadCN', 'Gsap', 'React Hook Form', 'Firebase', 'Sanity', 'Stripe', 'Nodemailer', 'React Hot Toast', 'NextAuth', 'Cloudinary'],
     'https://nike-ecommerce-smoky.vercel.app/',
-    'https://github.com/dola5xd/Nike-Ecommerce',
+    'https://github.com/Adel-Yasser-dev/Nike-Ecommerce',
     '2025-10-04T11:25:10.251Z'
 ),
 (
@@ -204,7 +204,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/b0869ac34caa9671dd965fc7a5d17dd513da9ade-1898x943.png',
     ARRAY['Next.js', 'TypeScript', 'Tailwind.CSS', 'React Hook Form', 'Lenis', 'Framer-motion', 'Firebase', 'ShadCN', 'NextAuth'],
     'https://q-menu-delta.vercel.app',
-    'https://github.com/dola5xd/QMenu',
+    'https://github.com/Adel-Yasser-dev/QMenu',
     '2025-10-04T11:22:44.570Z'
 ),
 (
@@ -215,7 +215,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/24506b9c79776f8ed870cf2bfa0ad2142d31fd2f-1755x867.jpg',
     ARRAY['React', 'TypeScript', 'Tailwind.CSS', 'React Router', 'ShadCN', 'React Hook Form', 'React Query', 'Firebase'],
     'https://estatein-dahboard.vercel.app/',
-    'https://github.com/dola5xd/Estatein-Dahboard',
+    'https://github.com/Adel-Yasser-dev/Estatein-Dahboard',
     '2025-06-24T10:21:49.226Z'
 ),
 (
@@ -226,7 +226,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/29cd58cce94b7ccad71c0071c3a1ec6e4b3728d9-1881x947.png',
     ARRAY['Next.js', 'Three.Js', 'Gsap', 'Tailwind.CSS', 'TypeScript', 'Lenis', 'React-icons'],
     'https://xbox-series-x.vercel.app/',
-    'https://github.com/dola5xd/xbox-series-x',
+    'https://github.com/Adel-Yasser-dev/xbox-series-x',
     '2025-05-31T10:13:33.500Z'
 ),
 (
@@ -237,7 +237,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/ac093f9b43d1f85846f4ee1159b35fce3ca9df79-1890x940.png',
     ARRAY['Next.js', 'TypeScript', 'Tailwind.CSS', 'Sanity', 'React Hook Form', 'Lenis', 'Framer-motion'],
     'https://estatein-nu.vercel.app/',
-    'https://github.com/dola5xd/Estatein',
+    'https://github.com/Adel-Yasser-dev/Estatein',
     '2025-04-14T13:07:31.697Z'
 ),
 (
@@ -248,7 +248,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/53c56faa733f539e94d9257f508778a257377b6c-1280x916.png',
     ARRAY['React', 'TypeScript', 'Tailwind.CSS', 'Gsap', 'Lenis', 'Sanity'],
     'https://kareem-portfolio-one.vercel.app/',
-    'https://github.com/dola5xd/Kareem-portfolio',
+    'https://github.com/Adel-Yasser-dev/Kareem-portfolio',
     '2025-04-02T16:44:33.067Z'
 ),
 (
@@ -259,7 +259,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/36ce1f44825aceb2de4c972debb6aa93470eefcf-1840x4509.jpg',
     ARRAY['Next.js', 'Tailwind.CSS', 'Sanity', 'Firebase', 'React Hook Form', 'AOS', 'Lenis'],
     'https://kirst.vercel.app/',
-    'https://github.com/dola5xd/Kirst',
+    'https://github.com/Adel-Yasser-dev/Kirst',
     '2025-02-05T10:38:34.141Z'
 ),
 (
@@ -270,7 +270,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/fe13e7b1569e30f9caf90e52760b8cbf882bd734-1755x5490.jpg',
     ARRAY['Next.js', 'Tailwind', 'Swiper', 'Framer-motion', 'React-icons', 'React-Toastify', 'React-Hook-Form'],
     'https://movies-watcher.vercel.app/',
-    'https://github.com/dola5xd/movies-watcher',
+    'https://github.com/Adel-Yasser-dev/movies-watcher',
     '2024-11-26T02:26:17.559Z'
 ),
 (
@@ -281,7 +281,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/06d274fcc049717665b17ab7dce2c1d60c02d4a9-1308x816.png',
     ARRAY['React', 'TypeScript', 'Tailwind.css'],
     'https://job-listings-with-filtering-blue.vercel.app/',
-    'https://github.com/dola5xd/Job-listings-with-filtering',
+    'https://github.com/Adel-Yasser-dev/Job-listings-with-filtering',
     '2024-11-25T06:28:00.000Z'
 ),
 (
@@ -292,7 +292,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/1d2c79f198dc47989b4749efcb3d0c5bf562f469-1308x816.png',
     ARRAY['Next.js', 'Supabase', 'Tailwind', 'Framer Motion'],
     'https://the-wild-oasis-website-seven-blond.vercel.app',
-    'https://github.com/dola5xd/The-wild-oasis-website',
+    'https://github.com/Adel-Yasser-dev/The-wild-oasis-website',
     '2024-11-22T06:27:00.000Z'
 ),
 (
@@ -303,7 +303,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/fac59a1262f0aea9b944fa9057dde13e061012d2-1308x816.png',
     ARRAY['React', 'Tailwind', 'Framer Motion'],
     'https://positivus-mocha.vercel.app/',
-    'https://github.com/dola5xd/Positivus',
+    'https://github.com/Adel-Yasser-dev/Positivus',
     '2024-11-20T06:27:00.000Z'
 ),
 (
@@ -314,7 +314,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/ed57b39e42bc2d860d98f020c9f4185a1015cda7-1755x1227.jpg',
     ARRAY['React', 'Framer Motion', 'Styled Components', 'React Query'],
     'https://rest-countries-website-cyan.vercel.app',
-    'https://github.com/dola5xd/REST-Countries-Website/tree/react-version',
+    'https://github.com/Adel-Yasser-dev/REST-Countries-Website/tree/react-version',
     '2024-11-19T06:28:00.000Z'
 ),
 (
@@ -325,7 +325,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/2143464c2ea7c5146a30bf6acf30fdcfdb7b04af-1308x816.png',
     ARRAY['React', 'Tailwind'],
     'https://to-do-list-project-roan.vercel.app',
-    'https://github.com/dola5xd/To-do-list-Project',
+    'https://github.com/Adel-Yasser-dev/To-do-list-Project',
     '2024-11-19T06:28:00.000Z'
 ),
 (
@@ -336,7 +336,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/55f4b48c337508f3ca24c019ec5345d7aa34b8d6-1308x816.png',
     ARRAY['React', 'Tailwind', 'Framer motion', 'Redux'],
     'https://multi-step-form-murex-gamma.vercel.app',
-    'https://github.com/dola5xd/Multi-Step-Form/tree/React-Version',
+    'https://github.com/Adel-Yasser-dev/Multi-Step-Form/tree/React-Version',
     '2024-11-18T06:28:00.000Z'
 ),
 (
@@ -347,7 +347,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/645212372e207b8de30681c4d2a0ca84225b7427-1899x1312.jpg',
     ARRAY['React', 'framer motion', 'Styled components'],
     'https://smart-home-landing-page-gules.vercel.app',
-    'https://github.com/dola5xd/Smart-Home-Landing-Page',
+    'https://github.com/Adel-Yasser-dev/Smart-Home-Landing-Page',
     '2024-11-18T06:30:00.000Z'
 ),
 (
@@ -358,7 +358,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/4fbe79897df20a366c3114bdf9b95516e7b301a3-1308x816.png',
     ARRAY['Html', 'Tailwind', 'Javascript'],
     'https://rock-paper-scissors-game-phi-one.vercel.app',
-    'https://github.com/dola5xd/Rock-paper-scissors-game',
+    'https://github.com/Adel-Yasser-dev/Rock-paper-scissors-game',
     '2024-11-17T06:28:00.000Z'
 ),
 (
@@ -369,7 +369,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/7dc1490940c171f5e8fcce3775433393f8aae8e9-1308x816.png',
     ARRAY['Html', 'Css', 'Javascript', 'Tailwind'],
     'https://easybank-page-black.vercel.app',
-    'https://github.com/dola5xd/Easybank-Page',
+    'https://github.com/Adel-Yasser-dev/Easybank-Page',
     '2024-10-28T16:53:54.671Z'
 ),
 (
@@ -380,7 +380,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/a7e73766996633c2e7e3dee21dceb1f9aba10278-1308x816.png',
     ARRAY['Html', 'Css', 'Javascript', 'Tailwind'],
     'https://bankist-website-alpha.vercel.app',
-    'https://github.com/dola5xd/Bankist-Website',
+    'https://github.com/Adel-Yasser-dev/Bankist-Website',
     '2024-10-28T16:52:56.241Z'
 ),
 (
@@ -391,7 +391,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/3c14b81ede4f864df443b7fb14e11a4598fee491-1755x999.jpg',
     ARRAY['Html', 'Css', 'Javascript', 'Tailwind'],
     'https://space-tourism-indol-omega.vercel.app',
-    'https://github.com/dola5xd/Space-tourism',
+    'https://github.com/Adel-Yasser-dev/Space-tourism',
     '2024-10-28T16:51:56.489Z'
 ),
 (
@@ -402,7 +402,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/a6dbd894bd55b0c87bf7752dbdb0835238e1adbc-1308x816.png',
     ARRAY['Html', 'Css', 'Javascript'],
     'https://social-media-dashboard-front-end-mentor.vercel.app',
-    'https://github.com/dola5xd/Social-media-dashboard',
+    'https://github.com/Adel-Yasser-dev/Social-media-dashboard',
     '2024-10-28T16:49:47.894Z'
 ),
 (
@@ -413,7 +413,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/5db2fde25a5d3f1343b1cf3475113b699ec3ee87-1535x944.jpg',
     ARRAY['Html', 'Css', 'Javascript'],
     'https://tip-calculator-app-theta-teal.vercel.app/',
-    'https://github.com/dola5xd/Tip-Calculator-App',
+    'https://github.com/Adel-Yasser-dev/Tip-Calculator-App',
     '2024-10-28T16:49:09.734Z'
 ),
 (
@@ -424,7 +424,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/0df3ead8ded3f1ee8a4281d398d561b1a086d5a8-1308x816.png',
     ARRAY['Html', 'Css', 'Javascript', 'Tailwind'],
     'https://advice-generator-api-app-lyart.vercel.app/',
-    'https://github.com/dola5xd/Advice-Generator-Api-App',
+    'https://github.com/Adel-Yasser-dev/Advice-Generator-Api-App',
     '2024-10-28T16:48:16.132Z'
 ),
 (
@@ -435,7 +435,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/c4ead92e2bfb505ddcefc149f8ffabab945f8a7a-1897x1020.jpg',
     ARRAY['Html', 'Css', 'Javascript', 'Tailwind', 'swiper'],
     'https://entertainment-web-application.vercel.app/',
-    'https://github.com/dola5xd/Entertainment-Web-application',
+    'https://github.com/Adel-Yasser-dev/Entertainment-Web-application',
     '2024-10-28T16:47:06.994Z'
 ),
 (
@@ -446,7 +446,7 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/3936bf78751304063099cacc523659ca9766b2a2-1308x816.png',
     ARRAY['Html', 'Tailwind', 'Javascript', 'Leaflet'],
     'https://ip-address-tracker-livid.vercel.app',
-    'https://github.com/dola5xd/Ip-Address-Tracker',
+    'https://github.com/Adel-Yasser-dev/Ip-Address-Tracker',
     '2024-10-28T16:45:59.827Z'
 ),
 (
@@ -457,6 +457,6 @@ INSERT INTO public.projects (id, title, slug, description, image_url, stack, dem
     'https://cdn.sanity.io/images/yedl08o1/production/ab58300cb6c3c3e2e5ba07426c76499d8439f129-1280x1007.jpg',
     ARRAY['React', 'Tailwind', 'Framer motion', 'Redux'],
     'https://interactive-comments-phi.vercel.app',
-    'https://github.com/dola5xd/Interactive-Comments',
+    'https://github.com/Adel-Yasser-dev/Interactive-Comments',
     '2024-10-28T16:42:26.983Z'
 );

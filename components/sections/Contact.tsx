@@ -266,7 +266,7 @@ export default function Contact() {
             </h3>
             <div className="grid grid-cols-3 gap-2 sm:gap-2.5">
               <a
-                href="https://github.com/dola5xd"
+                href="https://github.com/Adel-Yasser-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-1.5 sm:gap-2 py-2.5 sm:py-3 px-2 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 hover:border-white/20 text-zinc-300 hover:text-white transition-all duration-200 text-xs sm:text-sm font-medium group"

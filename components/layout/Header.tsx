@@ -45,7 +45,7 @@ const Links = [
 
 const SocialLinks = [
   {
-    href: "https://github.com/dola5xd",
+    href: "https://github.com/Adel-Yasser-dev",
     name: "github",
     icon: FaGithub,
   },

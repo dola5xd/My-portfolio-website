@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://my-portfolio-website-orpin.vercel.app/sitemap.xml",
+    sitemap: "https://adel-yasser-dev.vercel.app/sitemap.xml",
   };
 }

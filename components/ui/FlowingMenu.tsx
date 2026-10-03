@@ -211,7 +211,10 @@ const MenuItem: React.FC<MenuItemProps> = ({
     const DOUBLE_CLICK_DELAY = 350;
 
     // Both desktop and mobile: Double-click / double-tap opens the project demo!
-    if (now - lastTapRef.current < DOUBLE_CLICK_DELAY || (!canHover && isActive)) {
+    if (
+      now - lastTapRef.current < DOUBLE_CLICK_DELAY ||
+      (!canHover && isActive)
+    ) {
       lastTapRef.current = 0;
       if (link && link !== "#") {
         window.open(link, "_blank", "noopener,noreferrer");
@@ -273,7 +276,7 @@ const MenuItem: React.FC<MenuItemProps> = ({
                 style={{ backgroundImage: `url(${image})` }}
               />
               <span className="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full text-[11px] font-mono tracking-normal uppercase bg-white/20 text-white/95 shrink-0 mx-2 border border-white/25">
-                <span>Double-click to open ↗</span>
+                <span>Tap to open →</span>
               </span>
             </div>
           ))}
